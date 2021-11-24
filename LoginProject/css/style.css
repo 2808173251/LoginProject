@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	/*这里的100% auto 表示以背景图片的长100%显示，高度自适应浏览器*/
+	background-size: 100% auto;
+	
+}
+#maxbox{
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px,50px;
+	/*这里的90表示不透明度为90%*/
+	background-color: #00000090;
+	/*方框的长为600px,宽为400px*/
+	width: 600px;
+	height: 400px;
+	/*center表示让内容居中*/
+	text-align: center;
+	/*改变大框内的边角为圆角*/
+	border-radius: 10px;
+}
+#maxbox h1{
+	padding: 0;
+	padding-top: 60px;
+	color: white;
+	font-size: 30px;
+}
+
+#maxbox .inputbox{
+	margin-top: 30px;
+}
+#maxbox .inputbox .inputText{
+	margin-top: 20px;
+}
+#maxbox .inputbox .inputText span{
+	font-size: 20px;
+	color: white;
+	
+}
+#maxbox .inputbox .inputText input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	/*这里的00表示是透明，这里即黑色透明*/
+	background-color: #FFFFFF00;
+	color: white;
+}
+#maxbox .inputbox .inputButton{
+	border: 0;
+	margin-top: 23px;
+	width: 145px;
+	height: 25px;
+	/*给按钮的边角为圆形边角*/
+	border-radius: 25px;
+	color: white;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.sign_up{
+	margin-top: 70px;
+	color: white;
+	font-size: 17px;
+}
+.sign_up a{
+	color: #3498db;
+	/*我们加上两个矢量图形*/
+	
+}
+
